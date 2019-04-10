@@ -246,7 +246,7 @@ namespace Minesweeper3D
                     SelectTile(hitTile);
                 }
             }
-            if(Input.GetMouseButtonDown(1))
+            if(Input.GetMouseButtonDown(2))
             {
                 Tile hitTile = GetHitTile(Input.mousePosition);
                 if (hitTile)
